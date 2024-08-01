@@ -1,0 +1,14 @@
+msno 에러 : pandas 랑 버전 안맞아서 생기는 듯. msno.py 파일 가서 코드 수정해줘야됨
+수리이력(도장, 판금 등) : 결측값이 너무 많음 => 컬럼 삭제
+나머지 결측값 : 결측값이 적음 => 해당 행 삭제
+nunique() : 고유값 개수 반환
+value_counts() : 각 고유값들의 개수 반환
+마지막 페이지 마지막 3개의 차 페이지가 오류 메시지만 담겨있음 => 크롤링 과정에서 예외처리
+
+cno : 결측값, 중복값 없음 => 기본키로 활용
+total_loss 가 Null 값이면 모든 데이터 없음 => 행삭제
+total_loss,robbery : 없음, 회 = 0 / 1회 => 스플릿 후 숫자만 
+my_damage,opponent_damage : 없음 = 0 / n회 (n,nnn,nnn원) => 스플릿후 숫자만 / cnt와 price 열로 나누기
+owner_changes,number_changes: 없음 = 0 / n회 => 숫자만
+
+
