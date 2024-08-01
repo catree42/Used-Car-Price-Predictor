@@ -1,0 +1,2 @@
+1. 동적페이지 json 파일을 찾았으나 매 페이지마다 다른 암호화 된 데이터가 post 방식에 필요 => 셀리니움으로 크롤링 하겠음 
+2. carinfo data class : 금액(만원) * 10000, owner age, sex 전처리, usage_duration 년 개월 전처리 필요
