@@ -7,8 +7,12 @@ value_counts() : 각 고유값들의 개수 반환
 
 cno : 결측값, 중복값 없음 => 기본키로 활용
 total_loss 가 Null 값이면 모든 데이터 없음 => 행삭제
-total_loss,robbery : 없음, 회 = 0 / 1회 => 스플릿 후 숫자만 
-my_damage,opponent_damage : 없음 = 0 / n회 (n,nnn,nnn원) => 스플릿후 숫자만 / cnt와 price 열로 나누기
+
+total_loss,robbery : 없음, 회 = 0 / 1회 => strip 후 숫자만
 owner_changes,number_changes: 없음 = 0 / n회 => 숫자만
+
+my_damage,opponent_damage : 없음 = 0 / n회 (n,nnn,nnn원) => 스플릿후 숫자만 / cnt와 price 열로 나누기
+submerged : 모든 값이 '없음'임 => 열삭제 
+
 
 
